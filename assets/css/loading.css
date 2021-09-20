@@ -1,0 +1,33 @@
+/*loading动画样式*/
+.demo-spin-icon-load{
+    animation: ani-demo-spin 1s linear infinite;
+}
+@keyframes ani-demo-spin {
+    from { transform: rotate(0deg);}
+    50%  { transform: rotate(180deg);}
+    to   { transform: rotate(360deg);}
+}
+.demo-spin-col{
+    height: 100px;
+    position: relative;
+    border: 1px solid #eee;
+}
+.loading-text{
+    font-size: 18px;
+}
+
+/*标题样式*/
+header h1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/*分页的padding*/
+#page{
+    padding-left: 20px;
+}
+
+.btn-print{
+    margin-left: 20px;
+    margin-bottom: -25px;
+}
