@@ -109,7 +109,7 @@ function curlGet($url,$cookie, $HEADER="",$method = '', $post = '') {
 	curl_setopt ($curl, CURLOPT_HTTPHEADER , $headerArr);
 	//构造headers
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($curl,CURLOPT_PROXY,'127.0.0.1:9999');//设置代理服务器
+    //curl_setopt($curl,CURLOPT_PROXY,'127.0.0.1:9999');//设置代理服务器
 	curl_setopt($curl, CURLOPT_FOLLOWLOCATION, TRUE);
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
 	curl_setopt($curl, CURLOPT_COOKIE, $cookie);
